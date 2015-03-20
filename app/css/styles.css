@@ -791,7 +791,7 @@ object {
    4.9.1 CALL TO ACTION WITH TEXT/BUTTON
 -----------------------------------------*/
 .cta-section {
-	background: url(../images/bg-image-2.jpg) no-repeat center fixed;
+	background: url(../images/new-bg.jpg) no-repeat center fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -929,7 +929,6 @@ footer {
 }
 
 .footer-logo {
-	max-width: 180px;
 	margin: auto;
 }
 
@@ -954,4 +953,7 @@ footer {
 
 .floating-menu-brand {
 	margin-top: -20px;
+}
+.news-logo {
+	max-height: 40px;
 }

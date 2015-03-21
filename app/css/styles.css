@@ -134,6 +134,7 @@ a:hover {
 a:focus {
 	outline: inherit;
 	color: inherit;
+	text-decoration: none;
 }
 
 strong {
@@ -334,8 +335,12 @@ h6 {
 }
 
 .secondary-button-white:hover {
-    border: 1px solid rgba(255,255,255,1);
-    color: #ffffff;
+  border: 1px solid rgba(255,255,255,1);
+  color: #ffffff;
+}
+
+.secondary-button-white:focus {
+	color: #ffffff;
 }
 
 /* --------------------------------------
@@ -600,6 +605,21 @@ header .vertical-registration-form {
 	border-bottom: 1px dotted #e3e3e3;
 }
 
+.package-features ul li.feature-unavailable .column-9p, .package-features ul li.feature-unavailable .column-1p {
+	opacity: .5;
+}
+
+.package-features ul li .icon_check {
+	position: relative;
+	top: 2px;
+}
+
+.package-features ul li .icon_close {
+  font-size: 1.2em;
+  position: relative;
+  top: 2px;
+}
+
 .package-features .bottom-row {
 	overflow: auto;
 	padding-top: 8px;
@@ -673,13 +693,19 @@ object {
 	border: 5px solid #ffffff;
 }
 
-.shot img {
+.shot-img {
 	max-width: 100%;
 	width: 100%;
+	padding-bottom: 66%;
+	background: white top center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-.shot img:hover {
-	cursor: crosshair;
+.shot-img:hover {
+	cursor: pointer;
 	opacity: 0.8;
 }
 

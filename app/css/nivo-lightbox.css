@@ -68,6 +68,8 @@
 	width: auto;
 	height: auto;
 	vertical-align: middle;
+  border: 5px solid #ffffff;
+  border-radius: 3px;
 }
 .nivo-lightbox-content iframe {
 	width: 100%;

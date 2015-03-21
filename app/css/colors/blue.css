@@ -30,9 +30,15 @@ a {
   color: #ffffff;
   background: #0186ca;
 }
+.standard-button:focus {
+  color: #ffffff;
+}
 .secondary-button:hover {
   color: #008ed6;
   border-color: #008ed6;
+}
+.secondary-button:focus {
+  color: #008ed6;
 }
 .sticky-navigation .main-navigation .current a {
   color: #008ed6 !important;
